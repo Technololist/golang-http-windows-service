@@ -4,4 +4,4 @@ This is simple Golang code for create web server which run as Windows Service an
 
 This code has been developed from Golang Windows Service Example (https://godoc.org/golang.org/x/sys/windows/svc/example).
 
-You can find more inseresting stuff at http://blog.technololist.org/2017/06/index.html.
+You can find more interesting stuff at http://blog.technololist.org/2017/06/index.html.
