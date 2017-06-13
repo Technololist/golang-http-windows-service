@@ -1,7 +1,11 @@
-# Golang HTTP Server on Windows Service
+# Golang Web Server on Windows Service
 
-This is simple Golang code for create web server which run as Windows Service and write log to Windows Event Log. I already tested on Windows 7, Windows 10 and Windows Server 2012.
+This is simple Golang Web Server which run as Windows Service. Please find more information [here](http://blog.technololist.org/2017/06/09.html).
 
-This code has been developed from Golang Windows Service Example (https://godoc.org/golang.org/x/sys/windows/svc/example).
+#### Instruction
+* Comply Go code with **go build** command.
+* Install web server with **install** option on administrator command prompt (uninstall with **remove** option).
+* It’ll run as Local System user account by default. Local Service user account is preferred when you want to increase security.
 
-You can find more interesting stuff at http://blog.technololist.org/2017/06/index.html.
+
+[Technololist Blog](http://blog.technololist.org/2017/06/index.html)
